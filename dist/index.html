@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://rsms.me/">
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
 </head>
-<body class="bg-zinc-800 leading-relaxed text-slate-100 antialiased selection:bg-orange-300 selection:text-orange-900">
+<body class="bg-zinc-800 leading-relaxed text-zinc-100 selection:bg-orange-300 selection:text-orange-900">
 
 <div class="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
 <div class="lg:flex lg:justify-between lg:gap-4">
@@ -73,7 +73,7 @@
     </ul>
     </header>
 
-    <main class="pt-24 lg:w-1/2 lg:py-24">
+    <main class="pt-24 lg:w-1/2 lg:py-24" id="about">
             <p> Welcome to my personal website! I'm excited to share my journey with you. Born in the Dominican Republic and proudly half German, my multicultural background ignites my passion for knowledge and adventure. <br><br>
 
                 My journey in the data field began in 2016 after being inspired by the book <b><a class="text-orange-600" href="https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1492032646"> Hands-on Machine Learning with Scikit-Learn and TensorFlow by Aurelien Geron </a></b>. Leaving my homeland behind, I endeavored to learn from the brightest minds in the data industry across the globe. <br><br>
@@ -82,73 +82,97 @@
 
                 When I'm not immersed in my computer, you'll often find me running, <b><a href="https://www.goodreads.com/user/show/139128464-janio-martinez-bachmann" class="text-orange-600">reading </a></b>, meditating, or playing with my Himalayan cat.  </p>
 
-
 <div class="mb-8"></div>
 <div class="container p-8">
     <h1 class="text-3xl font-bold mx-8 mb-8 text-center" id="experience"> Experience </h1>
-
     <div class="mx-auto max-w-md">
         <div class="relative">
             <!-- Timeline Item 1 -->
             <div class="border-l-4 border-orange-600 pl-4 mb-8">
-                <div class="flex items-right mb-4">
-                    <div class="bg-sky-500 text-white rounded-full h-8 w-8 flex items-center justify-center mr-4">
-                        1
-                    </div>
-                    <div class="font-semibold">Software Engineer at ABC Company</div>
+                <span class="text-xl font-bold"> BI Analyst || Roche </span>
+                <div class="flex items-left mb-4 text-sm">
+                    <span class="font-light flex items-left  text-sm"> 2023 - Present · Barcelona </span>
                 </div>
-                <div class="text-zinc-200">
-                    <p>Worked on developing web applications using various technologies.</p>
-                    <p>Contributed to the design and implementation of new features.</p>
-                </div>
+                <ul class="text-zinc-200 font-light">
+                    <li> - Worked on leading and coordinating activities related to the migration of the data infrastructure from on-premise to the cloud.</li>
+                    <li> - Contributed to the automation of operational processes saving the team manual efforts with reporting activities.  </li>
+                </ul>
+            </div>
+            <div class="flex flex-wrap gap-4 pl-4 mb-16">
+                <div class="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-300 basis-1/5"> Salesforce </div>
+                <div class="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-300 basis-1/12"> R </div>
+                <div class="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-300 basis-1/6"> Tableau </div>
+                <div class="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-300 basis-1/6"> Alteryx </div>
+                <div class="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-300 basis-1/6"> SQL </div>
+                <div class="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-300 basis-1/6"> Python </div>
+                <div class="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-300 basis-1/5"> Snowflake </div>
             </div>
 
-            <!-- Timeline Item 2 -->
             <div class="border-l-4 border-orange-600 pl-4 mb-8">
-                <div class="flex items-center mb-4">
-                    <div class="bg-sky-500 text-white rounded-full h-8 w-8 flex items-center justify-center mr-4">
-                        2
-                    </div>
-                    <div class="font-semibold">Senior Software Engineer at XYZ Corporation</div>
+                <span class="text-xl font-bold"> Data Analyst || Voodoo </span>
+                <div class="flex items-left mb-4 text-sm">
+                    <span class="font-light flex items-left  text-sm"> 2022 - 2022 · Barcelona </span>
                 </div>
-                <div class="text-zinc-200">
-                    <p>Led a team in the development of a critical system upgrade.</p>
-                    <p>Mentored junior developers and conducted code reviews.</p>
-                </div>
+                <ul class="text-zinc-200 font-light">
+                    <li> - Developed scalable end tables through data modeling to facilitate easy access and utilization by data consumers.</li>
+                    <li> - Facilitate the design of experimentation protocols for diverse games and evaluated the outcomes of AB tests.</li>
+                </ul>
+            </div>
+            <div class="flex flex-wrap gap-4 pl-4 mb-16">
+                <div class="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-300 basis-1/12"> dbt </div>
+                <div class="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-300 basis-1/12"> R </div>
+                <div class="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-300 basis-1/6"> Tableau </div>
+                <div class="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-300 basis-1/6"> SQL </div>
+                <div class="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-300 basis-1/6"> Redshift </div>
             </div>
 
-            <!-- Timeline Item 3 -->
+
             <div class="border-l-4 border-orange-600 pl-4 mb-8">
-                <div class="flex items-center mb-4">
-                    <div class="bg-sky-500 text-white rounded-full h-8 w-8 flex items-center justify-center mr-4">
-                        3
-                    </div>
-                    <div class="font-semibold">Technical Lead at DEF Solutions</div>
+                <span class="text-xl font-bold"> BI Analyst || Google </span>
+                <div class="flex items-left mb-4 text-sm">
+                    <span class="font-light flex items-left  text-sm"> 2021 - 2022 · Dublin </span>
+
                 </div>
-                <div class="text-zinc-200">
-                    <p>Oversaw the architecture and development of multiple projects.</p>
-                    <p>Collaborated with cross-functional teams to deliver high-quality software solutions.</p>
-                </div>
+                <ul class="text-zinc-200 font-light">
+                    <li> - Designed comprehensive dashboards to evaluate to track financial performance from our Apps publishers, enabling account managers to swiftly identify additional market opportunities </li>
+                    <li> - Evaluate market opportunities within the African market to assess the viability of extending our scaled services under the (Next Billion Users) program. </li>
+                </ul>
             </div>
 
-            <!-- Timeline Item 4 -->
-            <div class="border-l-4 border-orange-600 pl-4">
-                <div class="flex items-center mb-4">
-                    <div class="bg-sky-500 text-white rounded-full h-8 w-8 flex items-center justify-center mr-4">
-                        4
-                    </div>
-                    <div class="font-semibold">Engineering Manager at GHI Technologies</div>
+            <div class="border-l-4 border-orange-600 pl-4 mb-8">
+                <span class="text-xl font-bold"> Financial Analyst || European Central Bank </span>
+                <div class="flex items-left mb-4 text-sm">
+                    <span class="font-light flex items-left  text-sm"> 2020 - 2021 · Frankfurt </span>
+
                 </div>
-                <div class="text-zinc-200">
-                    <p>Managed a team of software engineers and coordinated project schedules.</p>
-                    <p>Responsible for strategic planning and resource allocation.</p>
+                <ul class="text-zinc-200 font-light">
+                    <li> - Generated and conduct analysis on the weekly consolidated Eurosystem balance sheet for publication on the ECB website.</li>
+                    <li> - Delivered comprehensive reports on monetary policy securities holdings and income to Euro-area Central Banks.</li>
+                </ul>
+            </div>
+
+            <div class="border-l-4 border-orange-600 pl-4 mb-8">
+                <span class="text-xl font-bold"> Growth Analyst || Emma </span>
+                <div class="flex items-left mb-4 text-sm">
+                    <span class="font-light flex items-left  text-sm"> 2019 - 2020 · Frankfurt </span>
+
                 </div>
+                <ul class="text-zinc-200 font-light">
+                    <li> - Designed dashboards to streamline the optimization of investments in offline and online marketing channels across diverse markets.</li>
+                    <li> - Gathered stakeholder requests in an organized and systematic manner to ensure alignment with expectations.</li>
+                </ul>
+
+
             </div>
         </div>
     </div>
 </div>
+        <h1 class="text-3xl font-bold mx-8 mb-8 text-center" id="portfolio"> Portfolio </h1>
+
     </main>
+
 </div>
 </div>
+
 </body>
 </html>
